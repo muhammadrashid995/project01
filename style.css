@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img {
+  width: 100vw;
+  height: 92.2vh;
+  background-image: url("/Images/background.jpg");
+  background-size: cover;
+}
+
+.color {
+  width: 100vw;
+  height: 92.2vh;
+  background-color: rgba(0, 0, 0, 0.777);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.p1 {
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 10px;
+  margin: 0;
+}
+
+.p2 {
+  margin: 0;
+  color: white;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+.mybtn {
+  margin-top: 20px;
+}
